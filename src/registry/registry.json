@@ -925,9 +925,11 @@
         "types": {
           "matchingrule": {
             "id": "matchingrule",
-            "name": "MatchingRule",
+            "name": "matchingRules",
             "directoryName": "matchingRules",
-            "suffix": "matchingRule"
+            "ignoreParentName": true,
+            "suffix": "matchingRule",
+            "uniqueIdElement": "fullName"
           }
         },
         "suffixes": {
@@ -935,7 +937,12 @@
         },
         "directories": {
           "matchingRules": "matchingrule"
-        }
+        },
+        "strategies": {
+        "adapter": "default",
+        "transformer": "nonDecomposed",
+        "recomposition": "startEmpty"
+      }
       }
     },
     "duplicaterule": {
