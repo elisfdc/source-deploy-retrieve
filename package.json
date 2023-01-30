@@ -57,7 +57,7 @@
     "commitizen": "^3.1.2",
     "cz-conventional-changelog": "^2.1.0",
     "deep-equal-in-any-order": "^1.1.19",
-    "deepmerge": "^4.2.2",
+    "deepmerge": "^4.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-salesforce": "^0.1.6",
